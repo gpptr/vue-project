@@ -34,7 +34,7 @@ export default defineComponent({
     const errorMessage = ref('')
     const router = useRouter()
 
-    // ログイン認証部分
+    // ログイン 認証部分
     const handleLogin = async () => {
       try {
         await login(username.value, password.value)
