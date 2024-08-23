@@ -2,6 +2,7 @@
   <!-- 見た目記述部分 -->
   <div class="login-container" type="login-form">
     <h1>日報管理システム ログイン</h1>
+    <P>開発中</P>
     <form @submit.prevent="login">
       <div>
         <label for="username">ユーザーID:</label>
